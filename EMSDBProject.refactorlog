@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="724166ba-ac94-4f45-aa08-42f32911598f" ChangeDateTime="11/13/2021 00:45:49">
+    <Property Name="ElementName" Value="[dbo].[Patient].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Patient]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Patient_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bf1b7c7c-d39d-4050-9387-8c51c0556a75" ChangeDateTime="11/13/2021 00:50:24">
+    <Property Name="ElementName" Value="[dbo].[PCP].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PCP]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PCP_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5247d842-a044-4c0d-8715-404dfd061806" ChangeDateTime="11/13/2021 04:06:22">
+    <Property Name="ElementName" Value="[dbo].[MedicalPractice].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MedicalPractice]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Practice_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4c43bb6e-352d-4318-8542-31f28a59da3b" ChangeDateTime="11/13/2021 04:06:59">
+    <Property Name="ElementName" Value="[dbo].[MedicalPractice].[Ziip]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MedicalPractice]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Zip" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="11325dfb-d756-4b08-817d-e5b78dc4ff32" ChangeDateTime="11/13/2021 04:07:58">
+    <Property Name="ElementName" Value="[dbo].[MedicalRecord].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MedicalRecord]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Patient_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c0df4e82-09db-44fb-9959-93293eb17f1b" ChangeDateTime="11/13/2021 04:09:46">
+    <Property Name="ElementName" Value="[dbo].[BMICalculator].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[BMICalculator]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Patient_ID" />
+  </Operation>
+</Operations>
